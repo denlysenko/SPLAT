@@ -1,0 +1,36 @@
+body {
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  color: @text-color;
+  background-color: @body-bg;
+}
+
+a {
+  color: @link-color;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+    text-decoration: @link-hover-decoration;
+  }
+}
+
+ul,
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: @headings-font-family;
+  font-weight: @headings-font-weight;
+  color: @headings-color;
+
+  small {
+  	display: block;
+    font-weight: normal;
+    font-size: @font-size-base;
+  }
+}
