@@ -1,0 +1,2 @@
+# SPLAT
+Training template
